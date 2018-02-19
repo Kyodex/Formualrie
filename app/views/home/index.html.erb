@@ -1,9 +1,9 @@
 <% if user_signed_in? %>
-<p>Merci de t'être inscrit·e,<%= current_user.email %> </p>
+<p><font color="white">Merci de t'être inscrit·e,<%= current_user.email %> </font></p>
 <%= link_to 'Logout', logout_path, class:"button button4" %>
 <% else %>
-<h1>Home#index</h1>
-<p>Yosh Welcome</p>
+<h1><font color="white">Welcome</font></h1>
+<p><font color="white">Yosh Welcome</font></p>
 <%= link_to 'Login', login_path, class:"button button4" %>
 <%= link_to 'Signup', signup_path, class:"button button4" %>
 <% end %>
