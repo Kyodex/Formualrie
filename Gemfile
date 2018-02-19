@@ -9,6 +9,7 @@ gem 'dotenv'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'puma', '~> 3.7'
 gem 'devise'
+gem 'jquery-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'faker'
